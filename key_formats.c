@@ -21,7 +21,6 @@ const KeyFormat all_formats[] = {
     .macs = 4,
     .clearance = 3
     },
-
     {
     .manufacturer = "Schlage",
     .format_name = "SC4",
@@ -40,9 +39,8 @@ const KeyFormat all_formats[] = {
     .max_depth_ind = 9,
     .macs = 7,
     .clearance = 8
-    }
-
-{
+    },
+    {
     .manufacturer = "Sargent",
     .format_name = "L",  // Based on the keyway families listed in the doc
     .format_link = "https://lsamichigan.org/Tech/SARGENT_KeySpecs.pdf",
@@ -60,6 +58,5 @@ const KeyFormat all_formats[] = {
     .max_depth_ind = 10,
     .macs = 7,        // This is an estimate based on similar systems
     .clearance = 8    // This is an estimate based on similar systems
-}
-
+    }
 };
