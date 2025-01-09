@@ -1,5 +1,5 @@
 App(
-    appid="key_copier",
+    appid="key_copier_NEW",
     name="Key Copier w Sargent L",
     apptype=FlipperAppType.EXTERNAL,
     entry_point="main_key_copier_app",
