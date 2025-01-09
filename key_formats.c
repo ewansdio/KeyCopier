@@ -41,4 +41,25 @@ const KeyFormat all_formats[] = {
     .macs = 7,
     .clearance = 8
     }
+
+{
+    .manufacturer = "Sargent",
+    .format_name = "L",  // Based on the keyway families listed in the doc
+    .format_link = "https://lsamichigan.org/Tech/SARGENT_KeySpecs.pdf",
+    .first_pin_inch = 0.215,
+    .last_pin_inch = 0.839,
+    .pin_increment_inch = 0.156,  // Calculated from pin position differences
+    .pin_num = 6,
+    .pin_width_inch = 0.115,  // From "All pins .115 diameter" note
+    .elbow_inch = 0.156,  // This appears to be standard
+    .drill_angle = 79,    // From the diagram
+    .uncut_depth_inch = 0.330,  // From cut #1
+    .deepest_depth_inch = 0.150,  // From cut #10
+    .depth_step_inch = 0.020,  // Calculated from depth progression
+    .min_depth_ind = 1,
+    .max_depth_ind = 10,
+    .macs = 7,        // This is an estimate based on similar systems
+    .clearance = 8    // This is an estimate based on similar systems
+}
+
 };
