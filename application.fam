@@ -1,6 +1,6 @@
 App(
     appid="key_copier",
-    name="Key Copier",
+    name="Key Copier w Sargent L",
     apptype=FlipperAppType.EXTERNAL,
     entry_point="main_key_copier_app",
     stack_size=4 * 1024,
